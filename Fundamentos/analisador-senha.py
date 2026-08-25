@@ -20,6 +20,7 @@ print(f"A senha contém {cont_letra} letra(a)")
 print(f"A senha contém {cont_digito} digíto(s)")
 print(f"A senha contém {cont_especial} caractere(s) especial(is)")
 
+#avalia o nível de segurança da senha de acordo com os critérios estabelecidos
 
 if cont < 6 or cont_digito == 0 or cont_especial == 0:
     print("A senha é fraca") # se possui menos de 6 caracteres ou não possui dígito ou não possui caractere especial
